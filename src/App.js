@@ -9,6 +9,7 @@ import ParentCompoment from './components/ParentCompoment';
 import UserGreeting from './components/UserGreeting';
 import NameList from './components/NameList';
 import Speech from './components/Speech';
+import Mui from './components/Mui';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
       <UserGreeting /> */}
       <NameList /> 
       {/* <Speech /> */}
+      <Mui />
     </div>
   );
 }
